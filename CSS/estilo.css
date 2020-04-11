@@ -1,0 +1,76 @@
+nav, footer, header, aside{
+max-width: 98%;
+margin: auto;
+text-align: center;
+border-radius:0,3em;
+}
+nav{
+background-color: white;
+}
+header{
+    background-color:white;
+}
+h1{
+    background-color: rgb(99, 122, 224) ; 
+}
+.contenedor{
+    background-color: rgba(75, 207, 247, 0.979);
+}
+.principal{
+    background-color: rgb(219, 123, 45);
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+aside{
+    background-color: rgb(241, 244, 245);
+    display: inline-block;
+    width: 28%;
+}
+footer{
+    background-color: rgba(100, 99, 104, 0.952);
+}
+/*menu*/
+.menu li{
+    display: inline-block;
+}
+li a, btnDesplegable{
+    display: inline-block;
+    color: darkblue;
+    padding: 0.9em 1em;
+    text-align: center;
+    text-decoration:none;
+}
+.contenidoDesplegable{
+  display: none;
+  position: absolute;
+  background-color:  cornsilk;
+  min-width: 8em;
+}
+.contenidoDesplegable a{
+    color:blue;
+    padding: 0.9em 1em;
+    display: block;
+    text-align: left;
+}
+.contenidoDesplegable a:hover{
+  background-color:rgb(178, 180, 182);
+}
+.desplegable:hover .contenidoDesplegable{
+    display: block;
+}
+li a:hover{
+    background-color: rgb(160, 115, 115);
+}
+IMG.imgcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+}
+.pdfcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+}
